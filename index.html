@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather App</title>
+    <style media="screen">
+
+    body {
+      background-color: #8BC6EC;
+      background-image: url("https://wallup.net/wp-content/uploads/2019/09/838629-storm-weather-rain-sky-clouds-nature-landscape-sun.jpg");
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+    }
+    h1{
+      color: #fff;
+      align-content: center;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      text-align: center;
+
+    }
+
+      .form {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 300px;
+      }
+
+      .form label {
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 10px;
+        color: #fff;
+      }
+
+      .form input {
+        padding: 10px;
+        border: none;
+        border-radius: 50px;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+
+      }
+
+      button {
+        border-radius: 30px;
+        border: none;
+        margin-left: 5px;
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+        background-color: #F24C4C;
+        color: #fff;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #FF6FB5;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Weather Forecast</h1>
+    <form class="form" action="/" method="post">
+    <label for="cityInput"> </label>
+    <input id="cityInput" type="text" name="cityName" placeholder="Enter City Name">
+    <button type="submit">Search</button>
+
+  </form>
+
+  </body>
+</html>
